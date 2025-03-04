@@ -7,6 +7,6 @@ import { LoginComponent } from './login2/login2.component';
 export default [
     { path: 'access', component: Access },
     { path: 'error', component: Error },
-    { path: 'login', component: Login },
-    { path: 'login2', component: LoginComponent }
+    // { path: 'login', component: Login },
+    // { path: 'login2', component: LoginComponent }
 ] as Routes;

@@ -37,8 +37,11 @@ export class LoginComponent {
   login() {
     if (this.username === 'admin' && this.password === 'admin') {
       this.isAuthenticated = true;
+
     } else {
       alert('Invalid credentials');
     }
+    this.router.navigate(['/home']);
+
   }
 }
